@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+    <link rel="shortcut icon" href="assets/logo.svg" type="image/x-icon">
+
+    <script defer src="assets/script.js"></script>
+    <script defer src="https://kit.fontawesome.com/9555ff22ed.js" crossorigin="anonymous"></script>
+
+    <title>Codificador de Texto</title>
+</head>
+
+<body>
+    <main>
+        <!-- aqui foi fixada a logo da pagina-->
+        <div id="logo">
+            <i class="fa-solid fa-code-compare" style="color: #43f22c;"></i>
+        </div>
+        <div id="encryptor">
+            <div>
+                <h1 class="title">Codificador de Texto</h1>
+            </div>
+            <div class="text-input-container">
+                <span id="text-input" role="textbox" contenteditable></span>
+            </div>
+            <div class="buttons-container">
+                <p class="notice">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    Apenas letras minúsculas sem acentuação e sem caracteres especiais
+                </p>
+                <div>
+                    <button id="encrypt-btn" class="dark-btn">Codificar</button>
+                    <button id="decrypt-btn" class="light-btn">Descodificar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-output-container">
+            <div id="no-msg-found">
+                <img src="assets/no-msg-icons.png" alt="Nenhuma mensagem encontrada">
+                <h4>Nenhuma mensagem encontrada</h4>
+                <p>Digite um texto que você deseja codificar ou descodificar</p>
+            </div>
+            <span id="text-output" role="textbox" contenteditable="false"></span>
+        </div>
+    </main>
+
+    <div id="modal" class="hidden">
+        <div class="modal-content">
+            <!-- <span id="close-btn">&times;</span> -->
+            <p id="modal-text"></p>
+            <button id="close-btn">Ok</button>
+        </div>
+    </div>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/eli4kim/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+            LinkedIn
+        </a>
+        <p>Eliakim &copy; 2024</p>
+        <a href="https://github.com/Eli4kim" target="_blank">
+            <i class="fa-brands fa-github-square"></i>
+            Github
+        </a>
+    </footer>
+</body>
+
+</html>
