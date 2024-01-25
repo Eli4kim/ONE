@@ -4,9 +4,10 @@ Projeto desenvolvido para o 1º Alura Challenge do programa Oracle Next Educatio
 
 O challenge consiste em construir um codificador de texto com JavaScript.
 
+![](screenshot.png)
+
 ## Acesse o site clicando [aqui!]()
 
-![](screenshot.png)
 
 ![](teste.gif)
 
